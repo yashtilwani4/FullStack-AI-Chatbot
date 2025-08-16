@@ -1,0 +1,74 @@
+/* Tailwind imports */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global Resets */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Default fonts */
+body {
+  font-family: "Inter", sans-serif; /* Set Inter as default for body text */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif; /* Set Roboto for headings */
+}
+
+/* Your existing Roboto font-weight classes */
+.roboto-thin {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+}
+
+.roboto-light {
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+}
+
+.roboto-bold {
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+}
+
+.roboto-black {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+}
+
+.offscreen {
+  position: absolute;
+  left: -9999px;
+}
+
+.hide {
+  display: none;
+}
+
+.invalid {
+  color: red;
+}
+
+.valid {
+  color: rgb(12, 166, 233);
+}
+
+.nav-li-hover {
+  background-color: var(--fallback-bc, oklch(var(--bc) / 0.1));
+}
