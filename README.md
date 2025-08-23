@@ -1,6 +1,6 @@
-# DevConnect
+# TechConnect
 
-DevConnect is an open-source platform designed to connect developers from around the world. Inspired by LinkedIn but tailored specifically for the developer community, DevConnect aims to facilitate networking, knowledge sharing, and career growth.
+TechConnect is an open-source platform designed to connect developers from around the world. Inspired by LinkedIn but tailored specifically for the developer community, TechConnect aims to facilitate networking, knowledge sharing, and career growth.
 
 ## Upcoming Features
 
